@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="right"
+        android:background="#3E2723"
+        android:src="@drawable/ic_menu_earthquake_square" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#3E2723"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:text="@string/earthquake_fragment"
+        android:textAllCaps="true"
+        android:textColor="#FFF"
+        android:textSize="16sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFF"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            tools:context="safetyfirst.phyoekhantzin.net.activities.EarthquakeActivity">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="@string/earthquake_text1" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="@string/earthquake_text2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="@string/earthquake_text3" />
+
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/pager_earthquake"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    android:background="#FFF" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/earthquake_title_before"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:background="#3E2723"
+                    android:clickable="true"
+                    android:gravity="left|center"
+                    android:onClick="toggle_contents1"
+                    android:paddingLeft="10dp"
+                    android:text="@string/earthquake_tiptitle_before"
+                    android:textColor="#FFF"
+                    android:textSize="16sp" />
+                <!--content to hide/show -->
+                <LinearLayout
+                    android:id="@+id/earthquake_content_before"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#fef0ee"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/earthquake_tiptext_before_1" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/earthquake_tiptext_before_2" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/earthquake_tiptext_before_3" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/earthquake_title_during"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:background="#3E2723"
+                    android:clickable="true"
+                    android:gravity="left|center"
+                    android:onClick="toggle_contents2"
+                    android:paddingLeft="10dp"
+                    android:text="@string/earthquake_tiptitle_during"
+                    android:textColor="#FFF"
+                    android:textSize="16sp" />
+                <!--content to hide/show -->
+                <LinearLayout
+                    android:id="@+id/earthquake_content_during"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#fef0ee"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/earthquake_tiptext_during_1" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/earthquake_tiptext_during_2" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/earthquake_tiptext_during_3" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#dfc4c0"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/earthquake_title_after"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:background="#3E2723"
+                    android:clickable="true"
+                    android:gravity="left|center"
+                    android:onClick="toggle_contents3"
+                    android:paddingLeft="10dp"
+                    android:text="@string/earthquake_tiptitle_after"
+                    android:textColor="#FFF"
+                    android:textSize="16sp" />
+                <!--content to hide/show -->
+                <LinearLayout
+                    android:id="@+id/earthquake_content_after"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#fef0ee"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/earthquake_tiptext_after_1" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/earthquake_tiptext_after_2" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

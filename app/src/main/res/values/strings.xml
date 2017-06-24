@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">Safety First</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_telephone_list">Emergency Telephone Numbers</string>
+    <string name="section_format">%1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="tab_content_myanmar">Myanmar Ph List</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Extreme Heat Text -->
+    <string name="heat_fragment">In Case of Extreme Heat</string>
+    <string name="heat_text1">These self-help measures are not a substitute for medical care but may help you recognize and respond promptly to warning signs of trouble. Your best defense against heat-related illness is prevention. Staying cool and making simple changes in your fluid intake, activities, and clothing during hot weather can help you remain safe and healthy.</string>
+
+    <!-- Fire Text -->
+    <string name="fire_fragment">In Case of Fire</string>
+    <string name="fire_menu_text">Do stay low and leave your home immediately.Do yell "FIRE!!". So anyone else in your buiding can hear you.</string>
+    <string name="fire_text1">Do stay low and leave your home immediately.</string>
+    <string name="fire_text2">Do yell "FIRE!!". So anyone else in your buiding can hear you.</string>
+    <string name="fire_text3">Do call 9-1-1 from another building.</string>
+    <string name="fire_text4">Do not stop to take anything with you.</string>
+    <string name="fire_text5">Never go back into a burning building.</string>
+    <string name="fire_text6">Never attempt to put out a fire yourself. No matter how small it is.</string>
+    <string name="title_activity_flood">FloodActivity</string>
+
+    <!-- Flood Text -->
+    <string name="flood_fragment">In Case of Flood</string>
+    <string name="flood_tiptitle1"> + If you are under a flood watch or warning:</string>
+    <string name="flood_text1">Floods, big or small, can have devastating effects on your home and your family. You can take steps to reduce the harm caused by flooding. Learn how to prepare for a flood, stay safe during a flood, and protect your health when you return home after a flood.</string>
+    <string name="flood_tiptext_1_1">1) Gather the emergency supplies.</string>
+    <string name="flood_tiptext_1_2">2) Turn off all utilities at the main power switch and close the main gas.</string>
+    <string name="flood_tiptext_1_3">3) Fill bathtubs, sinks and plastic soda bottles with clean water.</string>
+    <string name="flood_tiptext_1_4">4) Bring outdoor possessions, such as lawn furniture, grills and trash cans inside or tie them down securely.</string>
+
+    <string name="flood_tiptitle2"> + Emergency Supplies You Will Need</string>
+    <string name="flood_tiptext_2_1">1) Several clean containers for water, large enough for a 3-5 day supply of water.</string>
+    <string name="flood_tiptext_2_2">2) A 3-5 day supply of non-perishable food and a non-electric can opener.</string>
+    <string name="flood_tiptext_2_3">3) A first aid kit and manual and prescription medicines and special medical needs.</string>
+    <string name="flood_tiptext_2_4">4) A battery-powered radio, flashlights, and extra batteries.</string>
+    <string name="flood_tiptext_2_5">5) Sleeping bags or extra blankets.</string>
+    <string name="flood_tiptext_2_6">6) Water-purifying supplies, such as chlorine or iodine tablets.</string>
+    <string name="flood_tiptext_2_7">7) Baby food and/or prepared formula, diapers, and other baby supplies.</string>
+    <string name="flood_tiptext_2_8">8) Personal hygiene supplies, such as soap, toothpaste, sanitary napkins, etc.</string>
+    <string name="flood_tiptext_2_9">9) An emergency kit for your car with food, flares, booster cables, maps, tools, a first aid kit, fire extinguisher, sleeping bags, etc.</string>
+    <string name="flood_tiptext_2_10">10) Rubber boots, sturdy shoes, and waterproof gloves.</string>
+
+    <!-- Earthquake Text -->
+    <string name="earthquake_fragment">In Case of Earthquake</string>
+    <string name="earthquake_tiptitle_before">  + Before an Earthquake</string>
+    <string name="earthquake_tiptitle_during">  + During an Earthquake</string>
+    <string name="earthquake_tiptitle_after">   + After an Earthquake</string>
+    <string name="earthquake_tiptext_before_1">Being Prepared</string>
+    <string name="earthquake_tiptext_before_2">Emergency Supplies</string>
+    <string name="earthquake_tiptext_before_3">Home Hazards</string>
+    <string name="earthquake_tiptext_during_1">Indoor Safety</string>
+    <string name="earthquake_tiptext_during_2">Outdoor Safety</string>
+    <string name="earthquake_tiptext_during_3">Specific Situations</string>
+    <string name="earthquake_tiptext_after_1">Food and Water</string>
+    <string name="earthquake_tiptext_after_2">Coping with a Disaster</string>
+    <string name="earthquake_text1">          Surviving an earthquake and reducing its health impact requires preparation, planning, and practice.</string>
+    <string name="earthquake_text2">          Far in advance, you can gather emergency supplies, identify and reduce possible hazards in your home, and practice what to do during and after an earthquake.</string>
+    <string name="earthquake_text3">          Learning what actions to take can help you and your family to remain safe and healthy in the event of an earthquake.</string>
+
+    <!-- Lightning Text -->
+    <string name="lightning_fragment">In Case of Lightning</string>
+    <string name="lightning_menu_text">You can protect yourself and your family if you know what to do when you see lightning or when you hear thunder as a warning. Lightning strikes the earth more than 8 million times per day. The risk of being struck is low but the consequences of lightning strike injuries are serious.</string>
+    <string name="lightning_tiptitle_outdoor">Outdoor Safety Tips</string>
+    <string name="lightning_tiptitle_indoor">Indoor Safety Tips</string>
+    <string name="lightning_tiptext_outdoor_1">1) Be aware</string>
+    <string name="lightning_tiptext_outdoor_2">2) Go indoors</string>
+    <string name="lightning_tiptext_outdoor_3">3) Crouch close to the ground and separate</string>
+    <string name="lightning_tiptext_outdoor_4">4) Do not stay in open vehicles, structures, and spaces</string>
+    <string name="lightning_tiptext_outdoor_5">5) Do not stay near tall structures</string>
+    <string name="lightning_tiptext_indoor_1">1) Avoid water</string>
+    <string name="lightning_tiptext_indoor_2">2) Avoid electronic equipment</string>
+    <string name="lightning_tiptext_indoor_3">3) Avoid corded phones</string>
+    <string name="lightning_tiptext_indoor_4">4) Avoid windows, doors, porches, and concrete</string>
+
+    <!-- Tsunami Text -->
+    <string name="tsunami_fragment">In Case of Tsunami</string>
+    <string name="tsunami_text1">Tsunamis, also known as seismic sea waves, are a series of enormous waves created by an underwater disturbance such as an earthquake, landslide, volcanic eruption, or meteorite. A tsunami can strike anywhere along most of the U.S. coastline. Learn more about tsunamis and get information about health concerns after a tsunami including food and water safety.</string>
+
+
+</resources>
